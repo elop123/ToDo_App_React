@@ -1,13 +1,15 @@
 
-
+import Page from './components/Page'
+import List from './components/List'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-      
+      <Page title={'To Do'}/>
+      <List />
     </>
   )
 }
