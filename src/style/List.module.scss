@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background: linear-gradient(135deg, #5A95B6, #1E1E1E);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  
+}
+.container{
+width: 600px;
+height:650px;
+background-color: #EFD67F;
+margin: auto;
+margin-top: 3rem;
+ 
+}
+
+h1{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    padding-top: 4rem;
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+}
+
+.content {
+    align-items: center;    
+    padding: 30px; 
+    margin:0 auto; 
+    width: 400px; 
+    height: 60%; 
+   
+}
+
+input{
+    background-color:#EFD67F ;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 220px;
+    height: 30px;
+    padding-right: 4.3rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.inputt{
+    display: inline-flex;
+    
+}
+.delete{
+   float: right;
+   border-radius: 50px;
+   border: 1.2px solid black;
+   margin: auto;
+   cursor: pointer;
+   background-color: #EFD67F;
+   margin-right: -4rem;
+   
+}
+
+.addButton{
+    border-radius: 15px;
+    margin: 8px;
+    padding: 8px;
+    margin-top: auto;
+    padding-left: 5px;
+    border: none;
+    background-color: #eac952;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 48%;
+        width: 17px;
+        height: 17px;
+        border: 1px solid black;
+        
+    }
+}
+
+.addButton:hover{
+    background-color: #EFD67F;
+    border: 1px solid orange;
+}
+
+.newText{
+    margin-left: 5px;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+    font-family: 'Roboto';
+    padding: auto;
+    
+}
+
+ .delete_all{
+     border: none;
+     background-color: #eac952;
+     border-radius: 15px;
+     margin: 8px;
+     padding: 8px;
+ }
+
+.delete_all:hover{
+    background-color: #EFD67F;
+    border: 1px solid orange;
+}
+
+.list{
+    border-right: 1px solid black;
+    height: 80%;
+    padding: 13px;
+}
+
